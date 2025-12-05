@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# 💻 Contador de Cliques com React e TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Descrição do Projeto
 
-## Available Scripts
+Este é um projeto simples que demonstra o uso do **React Hooks** (`useState`) para gerenciar o estado de uma interface de usuário, criando um contador de cliques em um botão. 
 
-In the project directory, you can run:
+O objetivo principal é exibir a quantidade de vezes que o botão é clicado pelo usuário, atualizando o valor em tempo real. O projeto foi desenvolvido utilizando React com tipagem forte através do **TypeScript**.
 
-### `npm start`
+## ⚙️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+As seguintes tecnologias e ferramentas foram usadas no desenvolvimento:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
+* **CSS:** Para a estilização visual dos componentes.
 
-### `npm test`
+## 🚀 Como Rodar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga os passos abaixo para ter uma cópia do projeto rodando na sua máquina.
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você precisará ter o **Node.js** e o gerenciador de pacotes **npm** (ou **Yarn**) instalados em seu sistema.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação e Execução
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clone o repositório** (se aplicável):
+    ```bash
+    git clone https://github.com/eduarda-guimaraes/modulo2-tarefa1-teach3035.git
+    ```
+2.  **Acesse a pasta do projeto** no terminal:
+    ```bash
+    cd modulo2-tarefa1-teach3035
+    ```
+3.  **Execute a aplicação** em modo de desenvolvimento:
+    ```bash
+    npm start
+    # ou
+    yarn start
+    ```
+O projeto será iniciado e aberto automaticamente no seu navegador, geralmente em `http://localhost:3000`.
 
-### `npm run eject`
+## 📂 Estrutura do Código
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A lógica principal reside no arquivo `App.tsx`:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Arquivo | Descrição |
+| :--- | :--- |
+| `App.tsx` | Componente principal. Usa `useState(1)` para inicializar o contador e a função `increment` para aumentar o valor de `count` a cada clique no botão. |
+| `App.css` | Define os estilos (cores, fontes - Poppins, layout) para o botão e o container. |
+| `index.tsx` | Ponto de entrada que renderiza o componente `<App />` dentro de um `React.StrictMode`. |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🙋‍♀️ Desenvolvido por
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| [<img src="https://avatars.githubusercontent.com/eduarda-guimaraes" width="100px;" alt="Foto de perfil do GitHub de [SEU_USUARIO_GITHUB]"/>](https://github.com/[SEU_USUARIO_GITHUB]) |
+| :---: |
+| **Eduarda Guimarães** |
